@@ -8,9 +8,8 @@
 
     #grid_container{
         display: grid;
-        grid-template-columns: repeat(6,1fr);
-        grid-template-rows: repeat(12, 1fr  );
-        background-color: gray;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(12, 1fr);
         width: 100%;
         gap: 7px;
         background-color: black;
@@ -149,6 +148,11 @@
         grid-column: 3/7;
         background-color: rgb(79, 206, 164);
     
+    }
+
+    @media(max-width: 900px){
+
+        
     }
 }
 
